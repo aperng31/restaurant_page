@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./images/SmellsLikeTacosBB.woff') format('woff');
+    /* font-weight: 600; */
+    font-style: normal;
+  }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background-image: url(./images/background.jpg);
+    background-size: 400px;
+    
+}
+
+.container {
+    width: 70%;
+    min-width: 800px;
+    height: 100%;
+    border: 1px solid black;
+    background-color: white;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+    gap: 30px;
+}
+
+hr {
+    min-height: 1px;
+    background-color: black;
+    width: 90%;
+}
+
+header button {
+    width: 120px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: 'MyFont';
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+.active {
+    font-size: 32px;
+}
+
+.content {
+    padding: 0 5% 0 5%;
+}

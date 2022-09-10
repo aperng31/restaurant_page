@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./images/SmellsLikeTacosBB.woff') format('woff');
+    font-weight: ;
+    font-family: normal;
+  }
+  
+
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'MyFont';
+    gap: 12px;
+    /* justify-content: stretch;
+    align-items: stretch; */
+}
+
+.meatlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+
+}
+
+.meats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.meatImage {
+    width: 100%;
+    height: auto;
+
+}
+
+h2 {
+    font-size: 40px;
+    padding: 0 0 8px 16px;
+    margin: 20px 0px 4px 0px;
+}
+
+p {
+    font-size: 24px;
+}
