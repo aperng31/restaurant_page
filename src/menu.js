@@ -34,16 +34,16 @@ export default function menu() {
         return meat;
     }
 
-    const asadaDesc = 'Asada is slow-cooked for 14 hours on a low-heat grill';
+    const asadaDesc = 'Lorem Ipsum is slow-cooked for many hours on a low-heat grill';
     meatlist.appendChild(meatMaker('Asada', Asada, asadaDesc));
 
-    const polloDesc = 'Asada is slow-cooked for 14 hours on a low-heat grill';
+    const polloDesc = 'Lorem Ipsum is slow-cooked for many hours on a low-heat grill';
     meatlist.appendChild(meatMaker('Pollo', Pollo, polloDesc));
 
-    const carnitasDesc = 'Asada is slow-cooked for 14 hours on a low-heat grill';
+    const carnitasDesc = 'Lorem Ipsum is slow-cooked for many hours on a low-heat grill';
     meatlist.appendChild(meatMaker('Carnitas', Carnitas, carnitasDesc));
 
-    const pastorDesc = 'Asada is slow-cooked for 14 hours on a low-heat grill';
+    const pastorDesc = 'Lorem Ipsum is slow-cooked for many hours on a low-heat grill';
     meatlist.appendChild(meatMaker('Pastor', Pastor, pastorDesc));
 
  //   main.appendChild(header);

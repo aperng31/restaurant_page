@@ -1,8 +1,9 @@
 import './index.css';
 import home from './home.js';
 // import './menu.js';
-import './contact.js';
+import { contact, initMap } from './contact.js';
 import menu from './menu.js';
+
 //import Icon from './icon.png';
 
 
@@ -42,7 +43,8 @@ function component() {
 
     contactButton.onclick = function () {
         content.innerHTML = '';
-     //   content.appendChild(contact());
+        window.google = {};
+        content.appendChild(contact());
     }
 
     const hrTag = document.createElement('hr');
