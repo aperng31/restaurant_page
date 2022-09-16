@@ -26,6 +26,34 @@ function component() {
     const content = document.createElement('div');
     content.classList.add('content');
     const footer = document.createElement('footer');
+
+    const foot1 = document.createElement('div');
+    const foot1a = document.createElement('a');
+    foot1a.href = "http://www.freepik.com";
+    foot1a.innerHTML = 'macrovector / Freepik';
+    foot1.innerHTML = 'Background artwork by ';
+    foot1.appendChild(foot1a);
+
+    const foot2 = document.createElement('div');
+    const foot2a = document.createElement('a');
+    foot2.classList.add('github');
+    foot2a.href = 'https://github.com/aperng31'; //my github
+    const gitImg = new Image();
+    gitImg.src='/Users/aperng31/repos/restaurant_page/src/images/github.png';
+    foot2a.appendChild(gitImg);
+    foot2.innerHTML = 'Website designed by Alan Perng ';
+    foot2.appendChild(foot2a);
+
+    const foot3 = document.createElement('div');
+    const foot3a = document.createElement('a');
+    foot3a.href = "https://www.freepik.com/free-vector/wall-decoration-taco-sketch-vector-illustration_29457717.htm#page=2&query=tacos&position=8&from_view=search";
+    foot3.innerHTML = 'Home image by ';
+    foot3a.innerHTML = 'Rochak Shukla on Freepik';
+    foot3.appendChild(foot3a);
+    
+    footer.appendChild(foot1);
+    footer.appendChild(foot2);
+    footer.appendChild(foot3);
  
     header.appendChild(homeButton);
     header.appendChild(menuButton);

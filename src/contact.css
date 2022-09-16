@@ -1,35 +1,16 @@
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 0px;
-    
-    height: 100%;
-    width: 100%;
-
-}
-
-
 .map {
     width: min(450px, 100%);
     height: min(320px, 100%);
-    opacity: 1;
-    background-color: white;
 }
 
 .info {
+    padding-top: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* gap: 10px; */
-    font-size: 24px;
+    justify-content: flex-start;
+    font-size: 40px;
     align-items: center;
 }
 .info p {
     margin: 4px;
-}
-
-h2 {
-    margin: 0px;
 }

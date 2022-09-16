@@ -1,0 +1,31 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "my_restaurant_page",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aperng31/restaurant_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aperng31/restaurant_page/issues"
+  },
+  "homepage": "https://github.com/aperng31/restaurant_page#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "load-google-maps-api": "^2.0.2"
+  }
+}

@@ -1,13 +1,12 @@
 @font-face {
     font-family: 'MyFont';
     src: url('./images/SmellsLikeTacosBB.woff') format('woff');
-    /* font-weight: 600; */
     font-style: normal;
   }
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 97vh;
     display: flex;
     justify-content: center;
 
@@ -19,23 +18,26 @@ body {
 .container {
     width: 70%;
     width: min(100%, 1000px);
-    height: 100%;
+    max-height: 100%;
     border: 1px solid black;
     background-color: white;
     opacity: .8;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 90px 10px 1fr 24px;
 }
 
 header {
+    grid-row: 1 / 2;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90px;
+    height: 90px;
     gap: 30px;
 }
 
 hr {
+    grid-row: 2 / 3;
     min-height: 1px;
     background-color: black;
     width: 90%;
@@ -60,7 +62,31 @@ header button:hover {
 }
 
 .content {
+    grid-row: 3 / 4;
+
     padding: 0 5% 0 5%;
-    height: 100%;
+    max-height: 100%;
     width: 90%;
+}
+
+footer {
+    grid-row: 4 / 5;
+
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'MyFont';
+    font-size: 20px;
+}
+
+footer div {
+    padding: 0px 10px 0px 10px;
+}
+
+.github {
+    display: flex;
+    align-content: center; 
+    margin-bottom: -8px;
 }

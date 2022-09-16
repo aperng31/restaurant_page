@@ -6,8 +6,6 @@ export default function home() {
     const main = document.createElement('div');
     main.classList.add('main');
 
-
-
     const about = document.createElement('div');
     about.classList.add('about');
     const head = document.createElement('h2');

@@ -10,24 +10,13 @@ export function contact() {
 
     const inq = document.createElement('p');
     inq.innerHTML = 'For any inquiries, email us at tacosdelgallito@email.com or call us at 55-1234-5678';
-    // const email = document.createElement('em');
-    // email.innerHTML = 'tacosdelgallito@email.com';
-    // const phone = document.createElement('p');
-    // phone.innerHTML = '55-1234-5678';
-    
     info.appendChild(inq);
 
     const hours = document.createElement('p');
     hours.innerHTML = "Hours: Monday - Saturday, 7:00 AM - 02:00 AM";
-
     info.appendChild(hours);
-    // info.appendChild(email);
-    // info.appendChild(phone);
-    // add email, phone, hours, location
-    //follow our social media as well!
 
     main.appendChild(info);
-
 
     const mapHeader = document.createElement('h2');
     mapHeader.innerHTML = 'Our Location';
